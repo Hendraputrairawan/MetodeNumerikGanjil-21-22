@@ -5,10 +5,10 @@ def f(x):
 
 # Definisikan Turunan dari Fungsi
 def g(x):
-    return (x**2*e**(2*x*math.sin(x))+1)/e**(2*x*math.sin(x))
+    return (x**2*e**(2*x*math.sin(x)+1)/e**(2*x*math.sin(x))
 
 # Implementasi dari Metode Newton Raphson
-5
+
 def newtonRaphson(x0,e,N):
     print('\n\n*** Implementasi dari Metode Newton Raphson ***')
     step = 1
